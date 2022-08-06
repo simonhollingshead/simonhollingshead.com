@@ -16,6 +16,7 @@ title = "Simon Hollingshead"
 [params]
 	author = 'Simon J. Hollingshead'
 	info = 'Site Reliability Engineer @ Google London'
+	description = 'Personal website for Simon Hollingshead (Site Reliability Engineer at Google)'
 	since = 2010
 	enableTwemoji = true
 	colorScheme = 'dark'
