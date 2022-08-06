@@ -1,0 +1,76 @@
+baseURL = 'https://simonhollingshead.com/'
+languageCode = 'en'
+defaultcontentlanguage = 'en'
+theme = 'hugo-coder'
+enableEmoji = true
+enableRobotsTXT = true
+timeZone = 'Europe/London'
+disableKinds = ['RSS']
+pygmentsCodefences = true
+pygmentsStyle = "solarized-dark"
+title = "Simon Hollingshead"
+
+[minify]
+	minifyOutput = true
+
+[params]
+	author = 'Simon J. Hollingshead'
+	info = 'Site Reliability Engineer @ Google London'
+	since = 2010
+	enableTwemoji = true
+	colorScheme = 'dark'
+	hidecolorschemetoggle = true
+	favicon_32 = "favicon-32x32.png"
+	favicon_16 = "favicon-16x16.png"
+	touchicon = "apple-touch-icon.png"
+
+[markup]
+	[markup.goldmark]
+		[markup.goldmark.renderer]
+			unsafe = true
+
+[[params.social]]
+	name = "LinkedIn"
+	icon = "fa-linkedin"
+	weight = 1
+	url = "https://linkedin.com/in/shollingshead"
+		
+[[params.social]]
+	name = "Reddit"
+	icon = "fa-reddit-alien"
+	weight = 2
+	url = "https://reddit.com/user/elpasi/"
+	
+[[params.social]]
+	name = "GitHub"
+	icon = "fa-github"
+	weight = 3
+	url = "https://github.com/simonhollingshead"
+
+[[params.social]]
+	name = "Email"
+	icon = "fa-envelope"
+	weight = 4
+	url = "mailto:me@simonhollingshead.com"
+
+[[params.social]]
+	name = "Keybase"
+	icon = "fa-keybase"
+	weight = 5
+	url = "https://keybase.io/simonh"
+	
+[[params.social]]
+	name = "Steam"
+	icon = "fa-steam"
+	weight = 6
+	url = "https://steamcommunity.com/id/SimonH"
+
+[[menu.main]]
+	name = "CV"
+	weight = 1
+	url = "/cv"
+	
+[[menu.main]]
+	name = "Projects"
+	weight = 2
+	url = "/projects"
