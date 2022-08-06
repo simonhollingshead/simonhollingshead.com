@@ -1,0 +1,4 @@
+{{- $format := "January, 2006" -}}
+{{- $date := $.Page.Params.Lastmod -}}
+{{- $daywithordinal := humanize $date.Day -}}
+{{ $daywithordinal }} of {{ $date.Format $format }}
