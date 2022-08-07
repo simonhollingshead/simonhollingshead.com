@@ -10,13 +10,13 @@ Sometimes I do projects that only matter to me (scripts that make my life easier
 
 However, below is a list of projects I've either done or have plans for which are worth publicising.
 
-# GPM (The Generic Package Manager)
+# GPM (The Generic Package Manager) {#gpm}
 
 My third-year University project to create a secure generic package manager framework that could be used by any project.
 
 I did a [presentation]({{% link gpm_preview_presentation.pdf %}}) before completing it (though if you weren't in the room it's probably lacking in detail to be useful), and produced a 12,000 word [dissertation]({{% link gpm_dissertation.pdf %}}) as a quarter of my third-year exam marks.
 
-# BOSSIT (Convert my website to use Hugo)
+# BOSSIT (Convert my website to use Hugo) {#bossit}
 
 Having a heavyweight software package just to show a few links and a few writeups felt excessive.  Ever since finding out about static site generators (especially after GitHub pages became a thing) I had wanted to replace it all.
 
