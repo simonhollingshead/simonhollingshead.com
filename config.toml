@@ -69,9 +69,9 @@ title = "Simon Hollingshead"
 [[menu.main]]
 	name = "CV"
 	weight = 1
-	url = "/cv"
+	url = "/cv/"
 	
 [[menu.main]]
 	name = "Projects"
 	weight = 2
-	url = "/projects"
+	url = "/projects/"
