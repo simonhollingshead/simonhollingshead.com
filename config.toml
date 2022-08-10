@@ -18,7 +18,6 @@ title = "Simon Hollingshead"
 	info = 'Site Reliability Engineer @ Google London'
 	description = 'Personal website for Simon Hollingshead (Site Reliability Engineer at Google)'
 	since = 2010
-	enableTwemoji = true
 	colorScheme = 'dark'
 	hidecolorschemetoggle = true
 	favicon_32 = "favicon-32x32.png"
