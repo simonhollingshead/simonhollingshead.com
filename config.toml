@@ -34,13 +34,13 @@ title = "Simon Hollingshead"
 	icon = "fa-linkedin"
 	weight = 1
 	url = "https://linkedin.com/in/shollingshead"
-		
-[[params.social]]
-	name = "Reddit"
-	icon = "fa-reddit-alien"
-	weight = 2
-	url = "https://reddit.com/user/elpasi/"
 	
+[[params.social]]
+	name = "Keybase"
+	icon = "fa-keybase"
+	weight = 2
+	url = "https://keybase.io/simonh"
+
 [[params.social]]
 	name = "GitHub"
 	icon = "fa-github"
@@ -52,18 +52,6 @@ title = "Simon Hollingshead"
 	icon = "fa-envelope"
 	weight = 4
 	url = "mailto:me@simonhollingshead.com"
-
-[[params.social]]
-	name = "Keybase"
-	icon = "fa-keybase"
-	weight = 5
-	url = "https://keybase.io/simonh"
-	
-[[params.social]]
-	name = "Steam"
-	icon = "fa-steam"
-	weight = 6
-	url = "https://steamcommunity.com/id/SimonH"
 
 [[menu.main]]
 	name = "CV"
