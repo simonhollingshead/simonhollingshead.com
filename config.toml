@@ -30,28 +30,39 @@ title = "Simon Hollingshead"
 			unsafe = true
 
 [[params.social]]
+	name = "Mastodon"
+	icon = "fa-mastodon"
+	weight = 1
+	url = "https://defcon.social/@simon"
+	rel = "me"
+
+[[params.social]]
 	name = "LinkedIn"
 	icon = "fa-linkedin"
-	weight = 1
+	weight = 2
 	url = "https://linkedin.com/in/shollingshead"
+	rel = "me"
 	
 [[params.social]]
 	name = "Keybase"
 	icon = "fa-keybase"
-	weight = 2
+	weight = 3
 	url = "https://keybase.io/simonh"
+	rel = "me"
 
 [[params.social]]
 	name = "GitHub"
 	icon = "fa-github"
-	weight = 3
+	weight = 4
 	url = "https://github.com/simonhollingshead"
+	rel = "me"
 
 [[params.social]]
 	name = "Email"
 	icon = "fa-envelope"
-	weight = 4
+	weight = 5
 	url = "mailto:me@simonhollingshead.com"
+	rel = "me"
 
 [[menu.main]]
 	name = "CV"
