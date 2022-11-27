@@ -15,7 +15,7 @@ In the interest of openness, here are the exact results I got through the entire
 
 # University of Cambridge - BA (Hons.), MA (Cantab.)
 
-*Note: My Oxbridge MA was issued in 2018.  See [my explanation of Cambridge degrees]({{% link cambridge-degrees %}}) for more information about the Oxbridge MA.*
+*Note: My Oxbridge MA was issued in 2018.  See [my explanation of Cambridge degrees]({{% link "cambridge-degrees/" %}}) for more information about the Oxbridge MA.*
 
 
 |      Part      | Papers                                                                                                                | Degree Class |
