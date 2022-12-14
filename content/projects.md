@@ -39,3 +39,7 @@ Just something which has annoyed me while shopping for years and I'd like to sol
 # Secret Project 3 (codename LIFEZERO)
 
 A project designed to track if I'm getting more organised over time.
+
+# Secret Project 4 (codename ENDOCRINEBOOK)
+
+A project to encourage myself to pay more attention to my civic responsibilities.
