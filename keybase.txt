@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/simonh
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://simonhollingshead.com
+  * I am simonh (https://keybase.io/simonh) on keybase.
+  * I have a public key ASCYpXkxqbSto9su0CQyKDBw1RD4ZIOu_YClf37SJzANGgo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "012098a57931a9b4ada3db2ed02432283070d510f86483aefd80a57f7ed227300d1a0a",
+            "host": "keybase.io",
+            "kid": "012098a57931a9b4ada3db2ed02432283070d510f86483aefd80a57f7ed227300d1a0a",
+            "uid": "395fdd6879452c7b225005c7e9b7c219",
+            "username": "simonh"
+        },
+        "service": {
+            "hostname": "simonhollingshead.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.14"
+    },
+    "ctime": 1458247899,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1458247879,
+        "hash": "af515c1ab5ec17745d897785d14504b11e34916cfba5678b2b7d38796f52867f9a8836327d5a874338a7547e85a69338cedf2310331dcc71678bc15786583c8d",
+        "seqno": 410689
+    },
+    "prev": "30ede3b9b4383c8f23591e8bbc169b26f2d551e7bf18bd112a8400c4f2ca75f8",
+    "seqno": 12,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+g6Rib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgmKV5Mam0raPbLtAkMigwcNUQ+GSDrv2ApX9+0icwDRoKp3BheWxvYWTFAvt7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwOThhNTc5MzFhOWI0YWRhM2RiMmVkMDI0MzIyODMwNzBkNTEwZjg2NDgzYWVmZDgwYTU3ZjdlZDIyNzMwMGQxYTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwOThhNTc5MzFhOWI0YWRhM2RiMmVkMDI0MzIyODMwNzBkNTEwZjg2NDgzYWVmZDgwYTU3ZjdlZDIyNzMwMGQxYTBhIiwidWlkIjoiMzk1ZmRkNjg3OTQ1MmM3YjIyNTAwNWM3ZTliN2MyMTkiLCJ1c2VybmFtZSI6InNpbW9uaCJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoic2ltb25ob2xsaW5nc2hlYWQuY29tIiwicHJvdG9jb2wiOiJodHRwOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4xNCJ9LCJjdGltZSI6MTQ1ODI0Nzg5OSwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNDU4MjQ3ODc5LCJoYXNoIjoiYWY1MTVjMWFiNWVjMTc3NDVkODk3Nzg1ZDE0NTA0YjExZTM0OTE2Y2ZiYTU2NzhiMmI3ZDM4Nzk2ZjUyODY3ZjlhODgzNjMyN2Q1YTg3NDMzOGE3NTQ3ZTg1YTY5MzM4Y2VkZjIzMTAzMzFkY2M3MTY3OGJjMTU3ODY1ODNjOGQiLCJzZXFubyI6NDEwNjg5fSwicHJldiI6IjMwZWRlM2I5YjQzODNjOGYyMzU5MWU4YmJjMTY5YjI2ZjJkNTUxZTdiZjE4YmQxMTJhODQwMGM0ZjJjYTc1ZjgiLCJzZXFubyI6MTIsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAspzlcZM9Kn+I4uvA+X0JJv3X3Oa8h7QyhKt8o+lQXVRbC1D/6xngGnE561uCIqOUkMdycMW1c205wpP2C6GwDKhzaWdfdHlwZSCjdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/simonh
+
+==================================================================
+
