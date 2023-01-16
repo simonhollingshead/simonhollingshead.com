@@ -19,6 +19,7 @@ enableGitInfo = true
 
 [params]
 	author = 'Simon J. Hollingshead'
+	footerAuthor = 'Simon Hollingshead'
 	info = 'Site Reliability Engineer @ Google London'
 	description = 'Personal website for Simon Hollingshead (Site Reliability Engineer at Google)'
 	since = 2010
