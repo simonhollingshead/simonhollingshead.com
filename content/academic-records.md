@@ -24,7 +24,7 @@ In the interest of openness, here are the exact results I got through the entire
 | IB<br />(2013) | Portfolio (Accepted)<br />Paper 3 (62%)<br />Paper 4 (72%)<br />Paper 5 (72%)<br />Paper 6 (51%)                      |     2.i      |
 | IA<br />(2012) | Portfolio (Accepted)<br />NST Mathematics (44.8%)<br />NST Physics (34.8%)<br />Paper 1 (69.41%)<br />Paper 2 (56.4%) |     2.ii     |
 
-A cryptographically-signed transcript showing these results can be generated on request.
+A cryptographically-signed transcript showing these results can be generated if needed.
 
 ---
 
