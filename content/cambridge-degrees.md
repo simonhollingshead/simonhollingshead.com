@@ -25,7 +25,7 @@ Cambridge does not generate a single result based on the marks in all three year
 
 # Do you have a Master's Degree?
 
-MAs are issued with no additional study as compared to a BA, a certain number of years after first joining the University.  This is considered a non-academic degree[^1], used solely to make them members of the university's Senate if they did not proceed to study for a fourth year to get membership that way.  This then confers additional benefits on them, such as being able to vote for the election of a new Chancellor.
+MAs are issued with no additional study as compared to a BA, a certain number of years after first joining the University.  This is considered a non-academic degree[^1], used solely to make them members of the university's Senate if they did not proceed to study for a fourth year to get membership that way.  This then confers additional benefits on them, such as being able to participate in the election of a new Chancellor.
 
 "MA (Cantab.)" degrees are never issued with honours.  A four-year (with honours) degree will always be of another type (e.g. MEng, MLit, MSci).  However, it's far too easy to read "MA" and believe that this means an academic degree, so I consider that the non-academic degree has no place in the 'Education' section of a CV.
 
