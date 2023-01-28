@@ -1,3 +1,6 @@
 [submodule "themes/hugo-coder"]
 	path = themes/hugo-coder
 	url = https://github.com/simonhollingshead/hugo-coder.git
+[submodule "submodules/cv"]
+	path = submodules/cv
+	url = https://github.com/simonhollingshead/cv
