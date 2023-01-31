@@ -1,0 +1,6 @@
+{
+    // I don't care about line length.
+    "MD013": false,
+    // Hugo sometimes requires inline HTML.
+    "MD033": false
+}

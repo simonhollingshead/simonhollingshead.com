@@ -5,7 +5,7 @@ description: "All my academic history."
 keywords: ["marks", "grades", "scores", "academic history", "transcript", "degree"]
 ---
 
-# Why?
+## Why?
 
 As I continue through my career, my academic history becomes less and less relevant, but I see no reason in hiding my previous performance behind some form of 'available on request' message.
 
@@ -13,10 +13,9 @@ In the interest of openness, here are the exact results I got through the entire
 
 ---
 
-# University of Cambridge - BA (Hons.), MA (Cantab.)
+## University of Cambridge - BA (Hons.), MA (Cantab.)
 
 *Note: My Oxbridge MA was issued in 2018.  See [my explanation of Cambridge degrees](/cambridge-degrees/) for more information about the Oxbridge MA.*
-
 
 |      Part      | Papers                                                                                                                | Degree Class |
 | :------------: | --------------------------------------------------------------------------------------------------------------------- | :----------: |
@@ -28,7 +27,7 @@ A cryptographically-signed transcript showing these results can be generated if 
 
 ---
 
-# All other results
+## All other results
 
 <!--
 For reference purposes, here are the full names of the examination papers:
