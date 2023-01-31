@@ -12,7 +12,7 @@ title = "Simon Hollingshead"
 enableGitInfo = true
 
 [frontmatter]
-	lastmod = ['lastmod', 'date', 'publishDate']  # Don't use git modification date.
+	lastmod = ['lastmod', ':git']
 
 [minify]
 	minifyOutput = true
