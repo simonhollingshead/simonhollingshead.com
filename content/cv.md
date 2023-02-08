@@ -1,6 +1,6 @@
 ---
 title: "My CV"
-lastmod: 2023-01-29
+lastmod: 2023-02-08
 draft: false
 description: "Page containing my CV and academic history."
 keywords: ["cv","curriculum vitae"]
