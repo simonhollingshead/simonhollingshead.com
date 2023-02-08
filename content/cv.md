@@ -14,6 +14,6 @@ My newest CV is always available on this page.  To check if your existing copy i
 
 ## Other Information
 
-* [List of recruitment companies who I will not work with.](/no/)
+* [A list of recruitment companies who I will not work with.](/no/)
 * [An explanation of the strange world of Cambridge degrees (BA vs. MA).](/cambridge-degrees/)
 * [A full list of all my academic results.](/academic-records/)
