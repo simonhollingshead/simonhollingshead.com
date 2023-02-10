@@ -35,7 +35,7 @@ jobs:
 
       - name: Optimise SVG and Make Static
         working-directory: raw
-        run: svgo favicon.svg ../static/favicon.svg
+        run: svgo favicon.svg -o ../static/favicon.svg
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
