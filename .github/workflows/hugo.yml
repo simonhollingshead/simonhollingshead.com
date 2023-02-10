@@ -26,9 +26,9 @@ jobs:
         run: cp submodules/cv/cv.pdf static/cv.pdf
 
       - name: Optimise SVG
-        working-directory: raw
         uses: ericcornelissen/svgo-action@v3
         with:
+          svgo-config: raw/svgo.config.js
           svgo-version: 3
 
       - name: Setup Hugo
