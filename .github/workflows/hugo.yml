@@ -31,7 +31,7 @@ jobs:
           node-version: latest
 
       - name: Install SVGO
-        run: npm install svgo
+        run: npm -g install svgo
 
       - name: Optimise SVG and Make Static
         working-directory: raw
