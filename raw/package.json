@@ -1,0 +1,8 @@
+{
+  "name": "simonhollingshead.com-build-deps",
+  "version": "1.0.0",
+  "description": "Packages required during static site generation",
+  "dependencies": {
+    "svgo": "~3",
+  }
+}

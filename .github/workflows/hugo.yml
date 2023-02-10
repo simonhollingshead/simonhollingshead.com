@@ -30,15 +30,16 @@ jobs:
         with:
           node-version: latest
 
-      - name: Install SVGO
-        run: npm -g install svgo
+      - name: Install Packages
+        working-directory: raw
+        run: npm -i
       
       - name: Install Imagemagick and Delegates
         run: sudo apt install imagemagick inkscape
 
       - name: Optimise SVG and Make Static
         working-directory: raw
-        run: svgo favicon.svg -o ../static/favicon.svg
+        run: npx svgo favicon.svg -o ../static/favicon.svg
 
       - name: Make favicon.ico
         run: convert -background transparent -define 'icon:auto-resize=48,32,16' raw/favicon.svg static/favicon.ico
