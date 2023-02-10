@@ -3,6 +3,6 @@
   "version": "1.0.0",
   "description": "Packages required during static site generation",
   "dependencies": {
-    "svgo": "~3",
+    "svgo": "~3"
   }
 }
