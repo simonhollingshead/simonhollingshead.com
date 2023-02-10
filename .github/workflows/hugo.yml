@@ -30,6 +30,7 @@ jobs:
         with:
           svgo-config: raw/svgo.config.js
           svgo-version: 3
+          repo-token: ${{secrets.GITHUB_TOKEN}}
       
       - name: Copy Favicon into place
         run: cp raw/favicon.svg static/favicon.svg
