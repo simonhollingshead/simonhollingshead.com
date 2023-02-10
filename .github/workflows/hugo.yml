@@ -32,7 +32,7 @@ jobs:
 
       - name: Install Packages
         working-directory: raw
-        run: npm -i
+        run: npm i
       
       - name: Install Imagemagick and Delegates
         run: sudo apt install imagemagick inkscape
