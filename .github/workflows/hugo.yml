@@ -25,15 +25,17 @@ jobs:
       - name: Copy CV into place
         run: cp submodules/cv/cv.pdf static/cv.pdf
 
-      - name: Optimise SVG
-        uses: ericcornelissen/svgo-action@v3
+      - name: Setup Node
+        uses: actions/setup-node@v3
         with:
-          svgo-config: raw/svgo.config.js
-          svgo-version: 3
-          repo-token: ${{secrets.GITHUB_TOKEN}}
-      
-      - name: Copy Favicon into place
-        run: cp raw/favicon.svg static/favicon.svg
+          node-version: latest
+
+      - name: Install SVGO
+        run: npm install svgo
+
+      - name: Optimise SVG and Make Static
+        working-directory: raw
+        run: svgo favicon.svg ../static/favicon.svg
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
