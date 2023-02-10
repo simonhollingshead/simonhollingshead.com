@@ -43,6 +43,9 @@ jobs:
       - name: Make favicon.ico
         run: convert -background transparent -define 'icon:auto-resize=48,32,16' raw/favicon.svg static/favicon.ico
 
+      - name: Make Other Favicon Sizes
+        run: inkscape -w 512 -h 512 raw/favicon.svg -o static/512x512.png && inkscape -w 192 -h 192 raw/favicon.svg -o static/192x192.png
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
