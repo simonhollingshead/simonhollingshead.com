@@ -25,11 +25,15 @@ jobs:
       - name: Copy CV into place
         run: cp submodules/cv/cv.pdf static/cv.pdf
 
+      - run: stat raw/favicon.svg
+
       - name: Optimise SVG
         uses: ericcornelissen/svgo-action@v3
         with:
           svgo-config: raw/svgo.config.js
           svgo-version: 3
+      
+      - run: stat raw/favicon.svg
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
