@@ -26,6 +26,7 @@ enableGitInfo = true
 	#commit = "https://github.com/simonhollingshead/simonhollingshead.com/tree/"
 	colorScheme = 'dark'
 	hidecolorschemetoggle = true
+	favicon_svg = "favicon.svg"
 	favicon_32 = "favicon-32x32.png"
 	favicon_16 = "favicon-16x16.png"
 	touchicon = "apple-touch-icon.png"
