@@ -27,6 +27,7 @@ enableGitInfo = true
 	colorScheme = 'dark'
 	hidecolorschemetoggle = true
 	favicon_svg = "favicon.svg"
+	favicon_any = "favicon.ico"
 	touchicon = "apple-touch-icon.png"
 
 [markup]
