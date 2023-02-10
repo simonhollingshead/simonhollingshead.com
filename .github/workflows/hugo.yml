@@ -25,6 +25,12 @@ jobs:
       - name: Copy CV into place
         run: cp submodules/cv/cv.pdf static/cv.pdf
 
+      - name: Optimise SVG
+        working-directory: raw
+        uses: ericcornelissen/svgo-action@v3
+        with:
+          svgo-version: 3
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
