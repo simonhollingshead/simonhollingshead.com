@@ -47,6 +47,10 @@ jobs:
       - name: Make Other Favicon Sizes
         run: inkscape -w 512 -h 512 raw/favicon.svg -o static/android-chrome-512x512.png && inkscape -w 192 -h 192 raw/favicon.svg -o static/android-chrome-192x192.png && inkscape -w 180 -h 180 raw/favicon.svg -o static/apple-touch-icon.png
 
+      - name: Remove Unused FontAwesome Icons
+        working-directory: raw
+        run: node fas.mjs && : > ../themes/hugo-cocder/assets/scss/font-awesome/regular.scss
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
