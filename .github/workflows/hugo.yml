@@ -52,6 +52,8 @@ jobs:
         run: |
           node fas.mjs
           : > ../themes/hugo-coder/assets/scss/font-awesome/regular.scss
+          : > ../themes/hugo-coder/static/fonts/fa-regular-400.ttf
+          : > ../themes/hugo-coder/static/fonts/fa-regular-400.woff2
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2

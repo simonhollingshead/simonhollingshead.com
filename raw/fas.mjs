@@ -3,7 +3,7 @@ fontawesomeSubset({
     "brands": [
         "github",
         "keybase",
-        "linkedin",
+        "linkedin-in",
         "mastodon",
     ],
     "regular": [],
