@@ -49,7 +49,9 @@ jobs:
 
       - name: Remove Unused FontAwesome Icons
         working-directory: raw
-        run: node fas.mjs && : > ../themes/hugo-cocder/assets/scss/font-awesome/regular.scss
+        run: |
+        node fas.mjs
+        : > ../themes/hugo-coder/assets/scss/font-awesome/regular.scss
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
