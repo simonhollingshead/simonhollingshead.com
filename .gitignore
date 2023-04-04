@@ -1,4 +1,4 @@
-.hugo_build.lock
-resources/_gen
-public
-raw/node_modules
+/.hugo_build.lock
+resources/_gen/
+public/
+raw/node_modules/
