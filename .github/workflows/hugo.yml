@@ -28,7 +28,10 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: latest
+          node-version: '*'
+          check-latest: false
+          cache: 'npm'
+          cache-dependency-path: raw/package-lock.json
       
       - name: Prepare apt
         run: sudo apt update
