@@ -15,6 +15,7 @@ fontawesomeSubset({
         "circle-xmark",
         "clock",
         "envelope",
+        "external-link",
         "file-lines",
         "folder",
         "lightbulb",
