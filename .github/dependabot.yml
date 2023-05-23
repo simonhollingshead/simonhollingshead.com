@@ -4,10 +4,14 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
+    assignees:
+      - "simonhollingshead"
   - package-ecosystem: "npm"
     directory: "raw/"
     schedule:
       interval: "daily"
+    assignees:
+      - "simonhollingshead"
     allow:
       - dependency-type: "all"
     ignore:
