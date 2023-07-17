@@ -26,6 +26,7 @@ enableGitInfo = true
 	#commit = "https://github.com/simonhollingshead/simonhollingshead.com/tree/"
 	colorScheme = 'dark'
 	favicon_svg = "images/favicon.svg"
+ 	dateFormat = "2006-01-02"
 
 [markup]
 	[markup.goldmark]
