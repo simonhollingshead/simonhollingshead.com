@@ -3,7 +3,7 @@ title: "My CV"
 lastmod: 2023-02-08
 draft: false
 description: "Page containing my CV and academic history."
-keywords: ["cv","curriculum vitae"]
+keywords: ["cv", "curriculum vitae"]
 ---
 
 My newest CV is always available on this page.  To check if your existing copy is up to date, older CVs have the generation date in the title, newer CVs also have the generation date in the left-hand sidebar.
