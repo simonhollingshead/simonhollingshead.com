@@ -1,6 +1,6 @@
 baseURL = 'https://simonhollingshead.com/'
 languageCode = 'en-GB'
-defaultcontentlanguage = 'en-GB'
+defaultcontentlanguage = 'en-gb'
 theme = 'hugo-coder'
 enableEmoji = true
 enableRobotsTXT = true
