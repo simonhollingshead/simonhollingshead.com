@@ -19,7 +19,7 @@ It just isn't.  Three-year degrees issued by Cambridge are BAs.  It does not mea
 
 ## What was your result?
 
-Cambridge does not generate a single result based on the marks in all three years.  Each year, a separate result is issued.  The convention is to only ever refer to your degree based on the result received in the third year modules.
+Cambridge, historically, did not generate a single result for the entire time studying a three-year course.  For each year of my course, an entirely separate result was issued on my transcript.  The convention has always been to only ever refer to your degree based on the result received in the third year modules.  Students matriculating in 2020 and onwards now receive [an overall degree classification](https://www.camdata.admin.cam.ac.uk/degree-classes) but, for many courses (including Computer Science), that overall result is still entirely based on work completed in the final year of study.
 
 ## Do you have a Master's Degree?
 
