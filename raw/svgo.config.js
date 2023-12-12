@@ -20,6 +20,7 @@ module.exports = {
         'minifyStyles',
         'moveElemsAttrsToGroup',
         'moveGroupAttrsToElems',
+        { name: 'removeAttrs', params: { attrs: ["font-family", "font-size", "font-stretch", "font-weight"] } },
         //{ name: 'removeAttrs', params: { attrs: "(style|font-.*)" } },
         { name: 'removeComments', params: { preservePatterns: false } },
         { name: 'removeDesc', params: { removeAny: true } },
