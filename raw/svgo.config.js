@@ -20,8 +20,8 @@ module.exports = {
         'minifyStyles',
         'moveElemsAttrsToGroup',
         'moveGroupAttrsToElems',
-        { name: 'removeAttrs', params: { attrs: ["font-family", "font-size", "font-stretch", "font-weight"] } },
-        //{ name: 'removeAttrs', params: { attrs: "(style|font-.*)" } },
+        // SVGO doesn't remove vendor-specific styles, so removing "style" is actually just deleting -inkscape-font-specification.
+        { name: 'removeAttrs', params: { attrs: ["font-family", "font-size", "font-stretch", "font-weight", "style"] } },
         { name: 'removeComments', params: { preservePatterns: false } },
         { name: 'removeDesc', params: { removeAny: true } },
         'removeDimensions',
