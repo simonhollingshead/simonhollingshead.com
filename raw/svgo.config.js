@@ -19,6 +19,7 @@ module.exports = {
         'mergeStyles',
         'minifyStyles',
         'moveElemsAttrsToGroup',
+        'moveGroupAttrsToElems',
         //{ name: 'removeAttrs', params: { attrs: "(style|font-.*)" } },
         { name: 'removeComments', params: { preservePatterns: false } },
         { name: 'removeDesc', params: { removeAny: true } },
