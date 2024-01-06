@@ -1,6 +1,8 @@
 name: Hugo Autobuild
 
 on:
+  schedule:
+    - cron: '1 0 1 1 *' # Update copyright footers on Jan 1st, just after midnight.
   push:
     branches:
       - main
@@ -16,6 +18,7 @@ jobs:
       group: ${{ github.workflow }}-${{ github.ref }}
       cancel-in-progress: true
     steps:
+      # Makes sure that the Jan 1st cron run will definitely decide that it's 2024 and update the footers.
       - name: Set timezone to UTC
         run: |
           timedatectl
