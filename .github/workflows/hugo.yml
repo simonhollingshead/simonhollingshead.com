@@ -16,6 +16,12 @@ jobs:
       group: ${{ github.workflow }}-${{ github.ref }}
       cancel-in-progress: true
     steps:
+      - name: Set timezone to UTC
+        run: |
+          timedatectl
+          sudo timedatectl set-timezone UTC
+          timedatectl
+      
       - name: Checkout
         uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
         with:
