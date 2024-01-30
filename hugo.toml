@@ -34,35 +34,35 @@ enableGitInfo = true
 
 [[params.social]]
 	name = "Mastodon"
-	icon = "fa fa-brands fa-mastodon fa-2x"
+	icon = "fa-brands fa-mastodon fa-2x"
 	weight = 1
 	url = "https://defcon.social/@simon"
 	rel = "me"
 
 [[params.social]]
 	name = "LinkedIn"
-	icon = "fa fa-brands fa-linkedin-in fa-2x"
+	icon = "fa-brands fa-linkedin-in fa-2x"
 	weight = 2
 	url = "https://linkedin.com/in/shollingshead"
 	rel = "me"
 	
 [[params.social]]
 	name = "Keybase"
-	icon = "fa fa-brands fa-keybase fa-2x"
+	icon = "fa-brands fa-keybase fa-2x"
 	weight = 3
 	url = "https://keybase.io/simonh"
 	rel = "me"
 
 [[params.social]]
 	name = "GitHub"
-	icon = "fa fa-brands fa-github fa-2x"
+	icon = "fa-brands fa-github fa-2x"
 	weight = 4
 	url = "https://github.com/simonhollingshead"
 	rel = "me"
 
 [[params.social]]
 	name = "Email"
-	icon = "fa fa-envelope fa-2x"
+	icon = "fa-solid fa-envelope fa-2x"
 	weight = 5
 	url = "mailto:me@simonhollingshead.com"
 	rel = "me"
