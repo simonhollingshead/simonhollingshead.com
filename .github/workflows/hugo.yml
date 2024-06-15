@@ -76,12 +76,13 @@ jobs:
         run: |
           node fas.mjs
           cat replacement_variables.scss >> ../themes/hugo-coder/assets/scss/font-awesome/_variables.scss
+          # Note that _shims should probably also be corrected but currently is left at full length.
           : > ../themes/hugo-coder/assets/scss/font-awesome/regular.scss
           : > ../themes/hugo-coder/assets/scss/font-awesome/_animated.scss
           : > ../themes/hugo-coder/assets/scss/font-awesome/_bordered-pulled.scss
           : > ../themes/hugo-coder/assets/scss/font-awesome/_list.scss
           : > ../themes/hugo-coder/assets/scss/font-awesome/_rotated-flipped.scss
-          sed -i '/from 1 through 10/from 1 through 2/s' ../themes/hugo-coder/assets/scss/font-awesome/_sizing.scss
+          sed -i 's/from 1 through 10/from 1 through 2/' ../themes/hugo-coder/assets/scss/font-awesome/_sizing.scss
           sed -i '/fa-regular-400/d' ../themes/hugo-coder/layouts/partials/head/theme-styles.html
 
       - name: Setup Hugo
