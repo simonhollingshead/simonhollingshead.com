@@ -77,6 +77,7 @@ jobs:
           node fas.mjs
           cat replacement_variables.scss >> ../themes/hugo-coder/assets/scss/font-awesome/_variables.scss
           : > ../themes/hugo-coder/assets/scss/font-awesome/regular.scss
+          : > ../themes/hugo-coder/assets/scss/font-awesome/_animated.scss
           sed -i '/fa-regular-400/d' ../themes/hugo-coder/layouts/partials/head/theme-styles.html
 
       - name: Setup Hugo
