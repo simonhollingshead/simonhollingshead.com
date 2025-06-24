@@ -40,6 +40,7 @@ module.exports = {
         'removeUnusedNS',
         'removeUselessDefs',
         { name: 'removeUselessStrokeAndFill',  params: { removeNone: true }},
+        'removeViewBox',
         'removeXMLProcInst',
         'reusePaths',
         'sortAttrs',
