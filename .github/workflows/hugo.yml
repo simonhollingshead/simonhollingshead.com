@@ -52,9 +52,12 @@ jobs:
       - name: Install Packages
         working-directory: raw
         run: npm i
-      
+
       - name: Install Imagemagick and Delegates
         run: sudo apt install imagemagick inkscape
+
+      - name: Replace Deprecated LibSass with Dart Sass
+        run: sudo snap install dart-sass
 
       - name: Optimise SVG and Make Static
         working-directory: raw
