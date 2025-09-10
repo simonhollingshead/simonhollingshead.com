@@ -91,6 +91,9 @@ jobs:
           hugo-version: '0.150.0'
           extended: true
 
+      - name: Print Hugo Environment
+        run: hugo env
+
       - name: Build
         run: hugo --minify
 
