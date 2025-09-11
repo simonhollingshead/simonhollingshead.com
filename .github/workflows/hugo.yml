@@ -86,7 +86,7 @@ jobs:
           : > ../themes/hugo-coder/assets/scss/font-awesome/_list.scss
           : > ../themes/hugo-coder/assets/scss/font-awesome/_rotated-flipped.scss
           sed -i 's/from 1 through 10/from 1 through 2/' ../themes/hugo-coder/assets/scss/font-awesome/_sizing.scss
-          sed -i '/fa-regular-400/d' ../themes/hugo-coder/layouts/partials/head/theme-styles.html
+          sed -i '/fa-regular-400/d' ../themes/hugo-coder/layouts/_partials/head/theme-styles.html
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@75d2e84710de30f6ff7268e08f310b60ef14033f # v3.0.0
