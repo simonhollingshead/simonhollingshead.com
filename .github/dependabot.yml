@@ -4,12 +4,16 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
+    cooldown:
+      default-days: 7
     assignees:
       - "simonhollingshead"
   - package-ecosystem: "npm"
     directory: "raw/"
     schedule:
       interval: "daily"
+    cooldown:
+      default-days: 7
     assignees:
       - "simonhollingshead"
     allow:
