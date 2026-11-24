@@ -56,9 +56,6 @@ jobs:
       - name: Install Imagemagick and Delegates
         run: sudo apt install imagemagick inkscape
 
-      - name: Replace Deprecated LibSass with Dart Sass
-        run: sudo snap install dart-sass
-
       - name: Optimise SVG and Make Static
         working-directory: raw
         run: npx svgo favicon.svg -o ../static/images/favicon.svg
@@ -91,7 +88,8 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@d1c81a15d4e6dca7086a17b9c2565cb70fd576bf # v3.3.0
         with:
-          hugo-version: '0.169.0'  # Do not advance, 0.170.0 removes SASS and needs to be fixed in conjunction with hugo-coder.
+          hugo-version: '0.170.1'
+          dart-sass-version: '1.108.2'
           extended: true
 
       - name: Print Hugo Environment
